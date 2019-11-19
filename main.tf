@@ -13,6 +13,7 @@ resource "ibm_container_cluster" "cluster" {
   public_vlan_id    = "${var.public_vlan_id}"
   private_vlan_id   = "${var.private_vlan_id}"
   kube_version      = "${var.kube_version}"
+  resource_group_id = "${ibm_resource_group.group.id}"
 }
 
 

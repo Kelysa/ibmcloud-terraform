@@ -37,6 +37,9 @@ variable "cluster_name" {
     default = "cluster1"
     description = "Name of your Kubernetes or OpenShift cluster."
 }
+variable "ressource_group_id" {
+    description = "Ressource groupe id"
+}
 
 variable "poolsize" {
     default = "2"
