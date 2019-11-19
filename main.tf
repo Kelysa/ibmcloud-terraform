@@ -14,7 +14,6 @@ resource "ibm_container_cluster" "cluster" {
   private_vlan_id   = "${var.private_vlan_id}"
   kube_version      = "${var.kube_version}"
   resource_group_id = "${var.ressource_group_id}"
-  resource_group_name = "${var.ressource_group_name}"
 }
 
 

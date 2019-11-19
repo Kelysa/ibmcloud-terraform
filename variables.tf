@@ -41,10 +41,6 @@ variable "ressource_group_id" {
     description = "Ressource groupe id"
 }
 
-variable "ressource_group_name" {
-    description = "Ressource groupe name"
-}
-
 variable "poolsize" {
     default = "2"
     description = "Number of nodes in your cluster."
